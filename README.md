@@ -56,6 +56,7 @@ US_states =
     
 	   
 	
-	 # US_states.each{|x,y| puts y if y[1]=="T"||y[1]=="N"}
-	 # US_states.reverse! 
-	  #US_states.each{|x,y| puts x if x[0]=="A"||x[0]=="E"||x[0]=="I"||x[0]=="O"||x[0]=="U"}
+	  US_states.each{|x,y| puts y if y[1]=="T"||y[1]=="N"}
+	  US_states.reverse! 
+  	US_states.each{|x,y| puts x ifx[0]=="A"||x[0]=="E"||x[0]=="I"||x[0]=="O"||x[0]=="U"
+ 	 &&x[-1]=="a"||x[-1]=="e"||x[-1]=="i"||x[-1]=="o"||x[-1]=="u"}
